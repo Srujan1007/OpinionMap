@@ -1,0 +1,25 @@
+fastapi
+uvicorn[standard]
+sqlalchemy[asyncio]
+asyncpg
+aiosqlite
+alembic
+pydantic
+pydantic-settings
+python-jose[cryptography]
+python-multipart
+httpx
+lxml  # required transitively by python-docx (docx report generation)
+praw
+google-api-python-client
+google-generativeai
+langgraph
+chromadb
+reportlab
+python-docx
+prometheus-client
+structlog
+pytest
+pytest-asyncio
+psutil
+bcrypt
